@@ -292,7 +292,7 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/home1.jpg) no-repeat center center;
+	background: url(../images/home2.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
 	background-color: #222;
@@ -592,7 +592,6 @@ SOCIAL ICON
 }
 
 
-
 /* === Resume Section === */
 
 /*---------------------------------------------------------
@@ -886,6 +885,10 @@ Resume Timeline
 }
 
 
+}
+
+
+
 /* === Skill Section === */
 .skills-section {
     background-color: #1a1e23;
@@ -1004,140 +1007,6 @@ Resume Timeline
 .chart .chart-text h3{font-size:22px;}
 
 
-/* Shuffle Filter*/
-#filter {
-    margin: 0 0 35px;
-    text-align: center;
-}
-
-
-#filter li a {
-    color: #68c3a3;
-    display: block;
-    text-transform: uppercase;
-    padding: 0 15px;
-    border-radius: 4px;
-    transition: inherit;
-}
-#filter li a.active,
-#filter li a:hover {
-    position: relative;
-    background: #68c3a3;
-    color: #fff;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.15);
-}
-
-#filter li a.active::after,
-#filter li a:hover::after{
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 10px solid rgba(104, 195, 163, 1);
-    bottom: -9px;
-    left: 50%;
-    margin-left: -8px;
-}
-
-.tt-overlay {
-    position: absolute;
-    background-color: rgba(26, 30, 31, 0.85);
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-
-.portfolio-info,
-.links,
-.links a i,
-.links a i::after,
-.tt-overlay {
-    -webkit-transition: all 400ms;
-    -moz-transition: all 400ms;
-    -o-transition: all 400ms;
-    transition: all 400ms;
-}
-
-
-.links {
-    width: 90px;
-    height: 40px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-top: -20px;
-    margin-left: -45px;
-    opacity: 0;
-    -webkit-transform: translate(0,-50px);
-    -moz-transform: translate(0,-50px);
-    -ms-transform: translate(0,-50px);
-    -o-transform: translate(0,-50px);
-    transform: translate(0,-50px);
-}
-
-.links a i{
-    position: relative;
-    color: #68c3a3;
-    font-size: 16px;
-    margin: 0 13px;
-    z-index: 100;
-}
-.links a:hover i {
-   color:  #fff;
-}
-.links a i::after{
-    position: absolute;
-    content: "";
-    left: -7px;
-    top: -7px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #68c3a3;
-    z-index: -1;
-    border-radius: 3px;
-    -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-}
-.links a:hover i::after {
-    background-color: #68c3a3;
-}
-
-.portfolio-info {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    background-color: #68c3a3;
-    color: #fff;
-    height: 45px;
-    width: 100%;
-    text-align: center;
-}
-
-.portfolio:hover .tt-overlay, 
-.portfolio:hover .links {
-    opacity: 1;
-    -webkit-transform: translate(0,0);
-    -moz-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(0,0);
-}
-.portfolio:hover .portfolio-info{
-    bottom: 0;
-}
-.portfolio-info h3 {
-    font-size: 14px;
-    line-height: 45px;
-    font-weight: 700;
-    margin: 0;
-}
-
-
 /*PopUp fade effect*/
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
@@ -1161,6 +1030,7 @@ Resume Timeline
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
+
 
 
 /*
@@ -1195,20 +1065,6 @@ Icon for all respective meta
     position: absolute;
     left: 0;
 }
-
-/* === Footer Wrapper === */
-.footer-wrapper {
-    background: #1a1e23;
-    padding: 36px 0;
-    color: #fff;
-  
-}
-.copyright p {
-    margin: 0;
-}
-
-
-
 
 
 
@@ -1295,4 +1151,50 @@ Icon for all respective meta
 	0%   { top:5px;  opacity: 0;}
 	30%  { top:10px; opacity: 1;}
 	100% { top:25px; opacity: 0;}
+}
+
+/* ---------------------------------------------- /*
+ * Preloader
+/* ---------------------------------------------- */
+
+#tt-preloader {
+	background: #FFF;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+#pre-status,
+.preload-placeholder {
+	background-image: url(../images/preloader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+}
+
+.preload-placeholder {
+	background: none;
+	left: 0;
+	margin: 0;
+	text-align: center;
+	top: 65%;
+}
+
+/* === Footer Wrapper === */
+.footer-wrapper {
+    background: #1a1e23;
+    padding: 36px 0;
+    color: #fff;
+  
+}
+.copyright p {
+    margin: 0;
 }

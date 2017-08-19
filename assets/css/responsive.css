@@ -56,97 +56,6 @@
 	.skill-title h3 {
 		font-size: 12px;
 	}
-
-	/*facts section*/
-	.count-wrap i {
-		font-size: 40px;
-	}
-
-	.count-wrap h3 {
-		font-size: 30px;
-		line-height: 16px;
-	}
-
-	.count-wrap p {
-		font-size: 10px;
-		font-weight: 400;
-		line-height: 18px;
-	}
-
-	.count-wrap > div{
-		margin-bottom: 40px;
-	}
-
-	#filter li{
-		margin-bottom: 20px;
-	}
-
-	/*blog section*/
-	.blog-post-wrapper {
-		margin-bottom: 40px;
-	}
-
-	/*hire us section*/
-	.hire-section h2 {
-		line-height: 40px;
-	}
-
-	/*contact section*/
-	.contact-form {
-		margin-bottom: 40px;
-	}
-
-	.contact-section div > i {
-		float: none;
-		margin-right: 0;
-	}
-	.center-xs {
-		text-align: center;
-	}
-
-	/*service*/
-	.service-wrap > div{
-		margin-bottom:100px;
-	}
-
-	.service-wrap > div:nth-child(4){
-		margin-bottom:0;
-	}
-
-	/*HOME TWO*/
-	#homeTwo:before{
-		width:100%;
-	}
-
-	.personal-info{
-		text-align: center;
-		padding:0 15px;
-	}
-
-	.personal-info h1{
-		font-size: 40px;
-		line-height: 50px;
-	}
-
-	.personal-info .intro-sub{
-		font-size: 18px;
-  		line-height: 20px;
-	}
-
-	.personal-info p{
-		line-height: 20px;
-		margin-bottom: 20px;
-	}
-
-	.personal-info .my-signature {
-	  	display: none;
-	}
-
-	.personal-info .download-button a{
-		padding: 5px 10px;
-  		font-size: 15px;
-  		margin-right: 0;
-	}
 }
 
 /* Landscape Mobile */
@@ -204,94 +113,9 @@
 		font-size: 12px;
 	}
 
-	/*facts section*/
-	.count-wrap i {
-		font-size: 64px;
-	}
-
-	.count-wrap h3 {
-		font-size: 50px;
-		line-height: 28px;
-	}
-
-	.count-wrap p {
-		font-size: 18px;
-		font-weight: 700;
-		line-height: 28px;
-	}
-
-	.count-wrap > div{
-		margin-bottom: 40px;
-	}
-
-	/*blog section*/
-	.blog-post-wrapper {
-		margin-bottom: 40px;
-	}
-
-	/*hire us section*/
-	.hire-section h2 {
-		line-height: 40px;
-	}
-
-	/*contact section*/
-	.contact-form {
-		margin-bottom: 40px;
-	}
-
-	.contact-section .map-icon, 
-	.contact-section .mobile-icon {
-		float: none;
-	}
 	.center-xs {
 		text-align: center;
 	}
-
-	/*service*/
-	.service-wrap > div{
-		margin-bottom:100px;
-	}
-
-	.service-wrap > div:nth-child(4){
-		margin-bottom:0;
-	}
-
-	/*HOME TWO*/
-	#homeTwo:before{
-		width:100%;
-	}
-
-	.personal-info{
-		text-align: center;
-		padding:0 15px;
-	}
-
-	.personal-info h1{
-		font-size: 60px;
-  		line-height: 80px;
-	}
-
-	.personal-info .intro-sub{
-		font-size: 24px;
-		line-height: 32px;
-	}
-
-	.personal-info p{
-		font-size: 14px;
-		line-height: 28px;
-	}
-
-	.personal-info .my-signature {
-	    margin-bottom: 45px;
-	    display: block;
-	}
-
-	.personal-info .download-button a{
-		padding: 14px 20px;
-  		font-size: 14px;
-  		margin-right: 20px;
-	}
-
 
 }
 
@@ -325,54 +149,10 @@
 		font-size: 14px;
 	}
 
-	/*blog section*/
-	.blog-post-wrapper {
-		margin-bottom: 40px;
-	}
-
-	.entry-meta ul li{
-		padding: 0 5px;
-	}
-
-	/*contact section*/
-	.contact-form {
-		margin-bottom: 40px;
-	}
-
-	.contact-section .map-icon, 
-	.contact-section .mobile-icon {
-		float: left;
-	}
 	.center-xs {
 		text-align: left;
 	}
-
-
-	.portfolio-item{
-		min-height: 162px;
-	}
-
-	/*service*/
-	.service-wrap > div{
-		margin-bottom:100px;
-	}
-
-	.service-wrap > div:nth-child(3),
-	.service-wrap > div:nth-child(4){
-		margin-bottom:0;
-	}
-
-	/*HOME TWO*/
-	#homeTwo:before{
-		width:100%;
-	}
-
-	.personal-info{
-		text-align: center;
-		padding:0 15px;
-	}
-
-
+	
 }
 
 
